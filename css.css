@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: rgb(219, 219, 219);
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	justify-content: center;
+	width: 1000px;
+	margin: 10px;
+}
+
+input {
+	padding: 10px;
+}
+
+#search {
+	font-size: 25px;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+#weather {
+	height: 200px;
+	width: 250px;
+	border-radius: 20px;
+	box-shadow: 0 0 20px #b7e6e8;
+	background: #ced8f0;
+	color: rgb(252, 252, 252);
+	padding-right: 20px;
+}
